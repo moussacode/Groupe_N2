@@ -8,3 +8,5 @@ def ajouter_tache():
 
 # Appel de la fonction
 ajouter_tache()
+a=ajouter_tache()
+print(a)
