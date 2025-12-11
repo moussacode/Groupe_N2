@@ -3,3 +3,11 @@
 n = int(input("Entrez un nombre : "))
 for i in range(1, 11):
     print(f"{n} x {i} = {n*i}")
+# Exercice 2 – Échanger les valeurs de deux variables A et B
+
+A = input("Entrez A : ")
+B = input("Entrez B : ")
+
+A, B = B, A
+
+print("Après échange : A =", A, ", B =", B)
